@@ -1,0 +1,31 @@
+# Local environments and generated outputs
+.venv
+venv
+build
+*.egg-info
+api/__pycache__
+__pycache__
+**/__pycache__
+*.py[cod]
+.dist
+.agents
+.codex
+
+# Local-only data and credentials
+.env
+.env.*
+db.sqlite3
+media
+
+# Development-only records
+.coverage
+htmlcov
+.pytest_cache
+.mypy_cache
+monitoring/tests.py
+
+# Retired platform-specific deployment files
+render.yaml
+Procfile
+build.sh
+runtime.txt
