@@ -63,12 +63,6 @@ Open [http://localhost:8000](http://localhost:8000) and sign in.
 
 The provisioning command creates or updates these **development defaults** when no environment variables are set:
 
-| Account | Username | Password | Access |
-| --- | --- | --- | --- |
-| Administrator | `admin` | `admin1234` | Dashboard and `/admin/` |
-| Teacher | `teacher` | `teacher12345` | Teacher dashboard and that teacher's sessions only |
-
-Change both passwords before using the application beyond local testing.
 
 ## Run a monitoring session
 
